@@ -1,0 +1,19 @@
+deviceList:
+  name: "Modbus-TCP-Temperature-Sensor"
+  profileName: "Ethernet-Temperature-Sensor"
+  description: "This device is a product for monitoring the temperature via the ethernet"
+  labels: 
+    - "temperature"
+    - "modbus"
+    - "TCP"
+  protocols:
+    modbus-tcp:
+      Address: "172.17.0.1"
+      Port: "502"
+      UnitID: "1"
+      Timeout: "5"
+      IdleTimeout: "5"
+  autoEvents:
+    interval: "30s"
+    onChange: false
+    sourceName: "Temperature"
