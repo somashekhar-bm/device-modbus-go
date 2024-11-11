@@ -1,6 +1,6 @@
 deviceList:
   name: "Modbus-TCP-Temperature-Sensor"
-  profileName: "Ethernet-Temperature-Sensor"
+  profileName: "Device-modbus"
   description: "This device is a product for monitoring the temperature via the ethernet"
   labels: 
     - "temperature"

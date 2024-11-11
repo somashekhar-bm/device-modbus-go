@@ -1,11 +1,11 @@
-name: "Ethernet-Temperature-Sensor"
+name: "Device-modbus"
 manufacturer: "Audon Electronics"
 model: "Temperature"
 labels:
   - "Web"
   - "Modbus TCP"
   - "SNMP"
-description: "The NANO_TEMP is a Ethernet Thermometer measuring from -55°C to 125°C with a web interface and Modbus TCP communications."
+description: "Temperature simulator device Testing."
 
 deviceResources:
   -
